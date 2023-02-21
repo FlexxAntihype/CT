@@ -1,0 +1,502 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.header{
+width: auto;
+height: 100px;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+}
+.try{
+    margin: 25px 0px 0px 0px;
+}
+.img-logo{
+    height: 80px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.prof{
+    margin: 0px 0px 0px 415px;
+}
+.butt-prof{
+background-color: transparent;
+}
+.img-prof{
+width: 18px;
+height: 18px;
+margin: 40px 0px 0px 0px;
+}
+.img-prof2{
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 35px;
+}
+.img-prof3{
+    width: 18px;
+    height: 20px;
+    margin: 0px 0px 0px 35px;
+}
+.li-menu{
+    display: flex;
+    width: 500px;
+    margin: 0px 0px 0px 347px;
+}
+.ul-m{
+    display: flex;
+    list-style-type: none;
+}
+.actives{
+    color: #ffffff;
+    margin: 42px 0px 0px 60px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: "Mulish", cursive;
+    opacity: 100%;
+    border-bottom: 1px solid transparent;
+    height: 30px;
+    background:linear-gradient(black,black) padding-box, linear-gradient(to right,#26FFF2  0%, #326CFF 100%) border-box;
+}
+.li-m{
+    color: white;
+    margin: 42px 0px 0px 60px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: "Mulish", cursive;
+    opacity: 50%;
+    transition: 0.5s;
+}
+.li-m:hover{
+    opacity: 70%;
+    border-bottom: 1px solid transparent;
+    height: 30px;
+    background:linear-gradient(black,black) padding-box, linear-gradient(to right,#26FFF2  0%, #326CFF 100%) border-box;
+
+}
+.carousel{
+    width: 1760px;
+    height: 445px;
+}
+.carousel-item{
+    height: 400px;
+}
+.carousel-control-prev-icon{
+    margin: 0px 0px 0px -328px;
+}
+.carousel-control-prev{
+    margin: 0px 0px 0px 0px;
+    width: 150px;
+    height: 150px;
+}
+.carousel-control-next-icon{
+    margin: 0px 0px 0px 225px;
+}
+.carousel-indicators{
+    margin: 0px 0px 0px 0px;
+}
+.film{
+    height: 768px;
+    width: auto;
+    display: flex;
+    border-bottom: 1px solid #2F2E2E;
+}
+.info{
+    width: 562px;
+    height: 764px;
+    display: block;
+    margin: 0px 0px 0px 85px;
+    filter: drop-shadow(200px 0px 100px #000000);
+    background-color: #010101;
+}
+.reyt{
+    display: flex;
+    margin: 60px 0px 0px 0px;
+}
+.h1-name{
+    font-family: "Marcellus", cursive;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    color: white; 
+    margin-top: 129px;
+}
+.years{
+    font-family: "Mulish", cursive;
+    font-weight: 800px;
+    font-size: 16px;
+    line-height: 10px;
+    color: white; 
+    margin: 7px 19px 0px 0px;
+}
+.time{
+    margin: 7px 60px 0px 0px;
+}
+.old{
+    color: white;
+    border: 1.5px solid transparent;
+    background:linear-gradient(black,black) padding-box, linear-gradient(to right,#26FFF2  0%, #326CFF 100%) border-box;
+    border-radius: 50px;
+    width: 60px;
+    height: 24px;
+    margin: 0px 19px 0px 0px;
+    
+}
+.p-txt{
+    font-family: "Mulish", cursive;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 28px;
+    color:#C2C2C2;
+    margin: 40px 0px 40px 0px; 
+}
+.butt-watch{
+   background: linear-gradient(to right,#26FFF2  0%, #326CFF 100%);
+   width: 141px;
+   height: 50px;
+   border-radius: 100px;
+   color: white;
+   font-family: "Mulish", cursive;
+   font-size: 16px;
+   font-weight: 800;
+   margin: 0px 35px 0px 0px;
+
+   cursor: pointer;
+}
+.butt-watch:hover{
+    filter: drop-shadow(0px 0px 4px rgba(50, 108, 255, 0.5));
+}
+.butt-inf{
+    background: white;
+   width: 195px;
+   height: 50px;
+   border-radius: 100px;
+   color: black;
+   font-family: "Mulish", cursive;
+   font-size: 16px;
+   font-weight: 800;
+   cursor:pointer;
+}
+.watch-img{
+    margin: 0px 10px 0px 0px;
+    width: 14px;
+    height: 14px;
+}
+.img-film{
+margin: 0px 0px 0px 0px;
+}
+.films{
+width: 1280px;
+height: 768px;
+}
+.NEW-FILMS-SLIDER{
+    width: 1441px;
+    height: 470px;
+    margin: 926px 0px 0px 80px;
+}
+.grad{
+    width: 35px;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#26FFF2  0%, #326CFF 100%) border-box;
+    rotate: 90deg;
+    margin: 15px 0px 0px 0px;
+}
+.h1-tv{
+    font-family: "Mulish", cursive;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+.h1-tv:hover{
+    text-decoration:underline;
+}
+.tv{
+    margin: 30px 0px 43px 15px;
+    display: flex;
+}
+.tv-block{
+    width: 206px;
+    height: 309px;
+    border-radius: 20px;
+    background-color: transparent;
+    background: transparent;
+    margin: 0px 93px 0px 0px;
+
+}
+.tv-block:hover{
+    width: 206px;
+    height: 309px;
+    border-radius: 20px;
+    background-color: transparent;
+    background: transparent;
+    margin: 0px 93px 0px 0px;
+    filter: drop-shadow(0px 0px 4px #26FFF2);
+}
+.tv-img{
+    border-radius: 20px;
+}
+.LATEST-NEWS{
+    width: 1441px;
+    height: 384px;
+    margin: 40px 0px 0px 80px; 
+}
+.tv-show{
+    height: 500px;
+    width: 1440px;
+}
+.genras{
+    width: 1441px;
+    height: 384px;
+    margin: 220px 0px 0px 80px;  
+}
+.ganras-block{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    width: 1813px;
+    height: 200px;
+}
+.g-block{
+    width: 340px;
+    height: 198px;
+    border-radius: 20px;
+    margin: 0px 113px 0px 0px;
+}
+.romance{
+    background: linear-gradient(to right,#FD093F  0%, #F383F1 100%) border-box;
+}
+.drama{
+    background: linear-gradient(to right,#0FFFDA  0%, #3CDB77 100%) border-box;
+}
+.historical{
+    background: linear-gradient(to right,#B936FF  0%, #57DEDA 100%) border-box;
+}
+.action{
+    background: linear-gradient(to right,#FD093F  0%,#FD093F 0.01%, #FCCB1A 100%) border-box;
+}
+.sci-fi{
+    background: linear-gradient(to right,#FF6472  0%, #FDA75D 100%) border-box;
+}
+.horror{
+    background: linear-gradient(to right,#13547A  0%, #80D0C7 100%) border-box;
+}
+.comedy{
+    background: linear-gradient(to right,#FFF77B  0%, #FFBF42 100%) border-box;
+}
+.documentary{
+    background: linear-gradient(to right,#1FA2FF  0%,#1FA2FF 0.01%, #1F535C 100%) border-box;
+}
+.g-img-romance{
+margin: 35px 0px 0px 117px;
+}
+.g-img-drama{
+    margin: 35px 0px 0px 125px;
+    }
+    .g-img-historical{
+        margin: 35px 0px 0px 117px;
+        }
+        .g-img-action{
+            margin: 35px 0px 0px 130px;
+            }
+            .g-img-sci-fi{
+                margin: 35px 0px 0px 100px;
+                }
+                .g-img-horror{
+                    margin: 45px 0px 0px 127px;
+                    }
+                    .g-img-comedy{
+                        margin: 40px 0px 0px 123px;
+                        }
+                        .g-img-documentary{
+                            margin: 35px 0px 0px 132px;
+                            }
+.g-h1{
+    font-family: "Mulish", cursive;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;  
+}
+.h1-romance{
+    margin: 0px 0px 0px 100px;
+    }
+    .h1-drama{
+        margin: 0px 0px 0px 119px;
+        }
+        .h1-historical{
+            margin: 0px 0px 0px 100px;
+            }
+            .h1-action{
+                margin: 0px 0px 0px 127px;
+                }
+                .h1-sci-fi{
+                    margin: -15px 0px 0px 114px;
+                    }
+                    .h1-horror{
+                        margin: 0px 0px 0px 122px;
+                        }
+                        .h1-comedy{
+                            margin: 0px 0px 0px 110px;
+                            }
+                            .h1-documentary{
+                                margin: 0px 0px 0px 82px;
+                                }
+.a-g{
+    width: 340px;
+    margin: 0px 113px 0px 0px;
+}
+.CLIENTS-REVIEWS{
+    width: 1441px;
+    height: 384px;
+    margin: 220px 0px 0px 80px;
+}
+.actor{
+    margin: 45px 0px 0px 0px;
+    display: flex;
+    width: 1813px;
+}
+.coments{
+    font-size: 16px;
+    color: white;
+    font-family: "Mulish", cursive;
+    text-align: center;
+}
+.a-a{
+    width: 190px;
+    height: 260px;
+    margin: 0px 110px 0px 0px; 
+}
+.actors-block{
+    width: 190px;
+    height: 260px;
+    margin: 0px 110px 0px 0px;
+}
+.img-actor{
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+}
+.name-actor{
+    font-family: "Mulish", cursive;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    margin: 17px 0px 0px 0px;
+}
+.coming{
+        width: 1441px;
+        height: 384px;
+        margin: 220px 0px 0px 80px;
+}
+.coming-block{
+width: 1440px;
+height: 341px;
+background: linear-gradient(to right,#0D1A73  29.09%, #000000 70.41%) border-box;
+border-radius: 20px;
+margin: 0px 0px 0px 135px;
+filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.1));
+display: flex;
+}
+.img-buck{
+    width: 739px;
+    height: 341px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.img-2021{
+margin: 71px 0px 0px 211px;
+}
+.h1-2021{
+    font-family: "Mulish", cursive;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 20px;
+    color: white;
+    margin: 31px 0px 0px 155px;
+}
+.registred{
+    width: 1441px;
+    height: 384px;
+    margin: 220px 0px 0px 80px;
+}
+.reg{
+    width: 1224px;
+    height: 270px;
+    border-radius: 20px;
+    display: flex;
+    margin: 0px 0px 0px 260px;
+}
+.reg::after{
+    content: '';
+    background-image: url("r1.png");
+    opacity: 50%;
+    position: absolute;
+    width: 1224px;
+    height: 270px;
+    z-index: -1;
+    border-radius: 20px;
+}
+.h1-reg{
+    width: 792px;
+    height: 128px;
+    font-family: "Mulish", cursive;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+    opacity: 100%;
+    margin: 71px 0px 0px 57px;
+}
+.butt-reg{
+    margin: 105px 0px 0px 115px;
+}
+.footer{
+    width: auto;
+    height: 280px;
+    background-color: #101012;
+    display: flex;
+}
+.logo-footer{
+    margin: 70px 0px 0px 115px;
+}
+.h1-form{
+    font-size: 24px;
+    margin: 5px 40px 0px 0px;
+}
+input{
+    width: auto;
+    height: 30px;
+    margin: 7px 0px 0px 0px;
+}
+.footer-menu{
+    display: flex;
+}
+.block-footer{
+    width: 210px;
+    height: 140px;
+    margin: 85px 0px 0px 100px;
+}
+.h-foot{
+    font-family: "Mulish", cursive;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #C2C2C2;
+    margin: 0px 0px 20px 0px;
+}
+.h-foot:hover{
+    color: white;
+}
+.name-film{
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
